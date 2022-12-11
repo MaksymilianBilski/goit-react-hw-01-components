@@ -1,4 +1,4 @@
-import css from 'M:/programy/Programy_kodowanie/github/goit-react-hw-01-components/src/components/Statistics/Statistics.module.css';
+import css from './Statistics.module.css';
 import { StatItem } from './statistics_item/StatItem';
 import PropTypes from 'prop-types';
 

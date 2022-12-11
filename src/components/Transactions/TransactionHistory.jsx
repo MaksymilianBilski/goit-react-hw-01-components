@@ -1,4 +1,4 @@
-import css from 'M:/programy/Programy_kodowanie/github/goit-react-hw-01-components/src/components/Transactions/Transaction.module.css';
+import css from './Transaction.module.css';
 import { TransactionTable } from './TransactionTable';
 import PropTypes from 'prop-types';
 

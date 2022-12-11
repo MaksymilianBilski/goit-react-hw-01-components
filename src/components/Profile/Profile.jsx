@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from 'M:/programy/Programy_kodowanie/github/goit-react-hw-01-components/src/components/Profile/profile.module.css';
+import css from './Profile.module.css';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => (
   <div className={css.profile}>
