@@ -7,8 +7,6 @@ import data from './data/data.json'
 import friends from './data/friends.json'
 import transactions from './data/transactions.json'
 
-
-
 export const App = () => (
   <>
     <Profile
@@ -21,5 +19,5 @@ export const App = () => (
     <Statistics title="Upload stats" stats={data} />
     <Friends friends={friends} />
     <Transaction item={transactions} />
-    </>
-    )
+  </>
+)
