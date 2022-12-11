@@ -1,4 +1,3 @@
-
 import css from './Statistics.module.css';
 
 const getRandomHexColor = () =>
@@ -11,7 +10,6 @@ export const StatItem = ({ stats }) => (
         className={css.item}
         style={{
           backgroundColor: getRandomHexColor(),
-          width: 100 / 5 + '%',
         }}
         key={el.id}
       >
