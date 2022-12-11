@@ -1,6 +1,6 @@
 import { FriendItem } from './friends_item/FriendsListItem';
 import PropTypes from 'prop-types';
-import css from 'src/components/Friends/friends.module.css';
+import css from './friends.module.css';
 
 export const Friends = ({ friends }) => (
   <ul className={css.friendsList}>
