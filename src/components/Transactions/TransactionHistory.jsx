@@ -11,12 +11,12 @@ export const Transaction = ({ item }) => (
         <th>currency</th>
       </tr>
     </thead>
-    {item.map(el => (
+    {item.map(transaction => (
       <TransactionTable
-        key={el.id}
-        type={el.type}
-        currency={el.currency}
-        amount={el.amount}
+        key={transaction.id}
+        type={transaction.type}
+        currency={transaction.currency}
+        amount={transaction.amount}
       />
     ))}
   </table>

@@ -1,4 +1,4 @@
-import css from './Statistics.module.css';
+import css from '../Statistics.module.css';
 
 const getRandomHexColor = () =>
   `#${Math.floor(Math.random() * 16777215).toString(16)}`;
