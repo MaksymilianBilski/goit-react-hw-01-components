@@ -1,4 +1,4 @@
-import css from '../friends.module.css';
+import css from 'M:/programy/Programy_kodowanie/github/goit-react-hw-01-components/src/components/Friends/friends.module.css';
 
 export const FriendItem = ({ avatar, name, isOnline }) => (
   <li className={css.item}>
