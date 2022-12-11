@@ -1,4 +1,4 @@
-import css from './Transaction.module.css';
+import css from 'M:/programy/Programy_kodowanie/github/goit-react-hw-01-components/src/components/Transactions/Transaction.module.css';
 
 export const TransactionTable = ({ type, amount, currency }) => (
   <>
