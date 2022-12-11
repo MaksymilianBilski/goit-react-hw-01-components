@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 export const Transaction = ({ item }) => (
   <table className={css.transactionHistory}>
     <thead>
-      <tr>
+      <tr className={css.tableHeadRow}>
         <th>type</th>
         <th>amount</th>
         <th>currency</th>
