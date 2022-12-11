@@ -1,5 +1,3 @@
-import css from './Transaction.module.css';
-
 export const TransactionTable = ({ type, amount, currency }) => (
   <>
     <tbody>
