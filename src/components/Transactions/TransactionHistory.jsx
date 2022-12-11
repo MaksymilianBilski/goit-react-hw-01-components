@@ -1,4 +1,4 @@
-import css from './Transaction.module.css';
+import css from 'src/components/Transactions/Transaction.module.css';
 import { TransactionTable } from './TransactionTable';
 import PropTypes from 'prop-types';
 
