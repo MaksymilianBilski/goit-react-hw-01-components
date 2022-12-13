@@ -1,4 +1,5 @@
 import css from '../Statistics/Statistics.module.css';
+import PropTypes from 'prop-types';
 
 const getRandomHexColor = () =>
   `#${Math.floor(Math.random() * 16777215).toString(16)}`;
@@ -19,3 +20,13 @@ export const StatItem = ({ stats }) => (
     ))}
   </ul>
 );
+
+StatItem.propTypes = {
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      label: PropTypes.string,
+      percentage: PropTypes.number,
+      key: PropTypes.number
+  })
+  )
+}

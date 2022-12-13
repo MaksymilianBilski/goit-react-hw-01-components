@@ -1,4 +1,5 @@
 import css from '../Transactions/Transaction.module.css';
+import PropTypes from 'prop-types';
 
 export const TransactionTable = ({ type, amount, currency }) => (
   <>
@@ -11,3 +12,9 @@ export const TransactionTable = ({ type, amount, currency }) => (
     </tbody>
   </>
 );
+
+TransactionTable.propTypes = {
+  type: PropTypes.string,
+  amount: PropTypes.number,
+  currency: PropTypes.string
+}
