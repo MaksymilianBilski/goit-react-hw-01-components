@@ -34,19 +34,3 @@
     display: flex;
     margin: 0 40px 0;
 }
-
-.tableBodyRow {
-    display: flex;
-    height: 30px;
-    width: 100%;
-}
-
-.tableBody {
-    width: 100%;
-}
-
-.tableBodyRow td {
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-}

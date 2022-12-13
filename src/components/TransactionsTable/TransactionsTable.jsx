@@ -1,7 +1,7 @@
-import css from '../Transactions/Transaction.module.css';
+import css from './transactionsTable.module.css';
 import PropTypes from 'prop-types';
 
-export const TransactionTable = ({ type, amount, currency }) => (
+export const TransactionsTable = ({ type, amount, currency }) => (
   <>
     <tbody className={css.tableBody}>
       <tr className={css.tableBodyRow}>
@@ -13,7 +13,7 @@ export const TransactionTable = ({ type, amount, currency }) => (
   </>
 );
 
-TransactionTable.propTypes = {
+TransactionsTable.propTypes = {
   type: PropTypes.string,
   amount: PropTypes.number,
   currency: PropTypes.string
